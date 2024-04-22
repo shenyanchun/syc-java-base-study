@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="syc.study.javabase.build.mapper.FactoryBuildStepAcceptSheetConfigMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="syc.study.javabase.build.entity.FactoryBuildStepAcceptSheetConfig">
+        <id column="f_id" property="id" />
+        <result column="f_group" property="group" />
+        <result column="f_content" property="content" />
+        <result column="f_orderBy" property="orderBy" />
+        <result column="f_img_config" property="imgConfig" />
+        <result column="f_demo_content" property="demoContent" />
+        <result column="f_status" property="status" />
+        <result column="f_segment" property="segment" />
+        <result column="f_type" property="type" />
+        <result column="f_group_type" property="groupType" />
+        <result column="f_relation_id" property="relationId" />
+        <result column="f_version" property="version" />
+        <result column="f_create_time" property="createTime" />
+        <result column="f_create_id" property="createId" />
+        <result column="f_update_time" property="updateTime" />
+        <result column="f_update_id" property="updateId" />
+        <result column="f_is_deleted" property="isDeleted" />
+    </resultMap>
+
+</mapper>
