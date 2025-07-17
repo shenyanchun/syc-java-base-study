@@ -15,6 +15,7 @@
     <description>syc-java-base-study</description>
     <properties>
         <java.version>8</java.version>
+        <ygl.common.version>1.2.0-SNAPSHOT</ygl.common.version>
     </properties>
     <dependencies>
         <dependency>
@@ -54,18 +55,35 @@
             <version>1.18.4</version>
             <scope>provided</scope>
         </dependency>
-
-        <dependency>
-            <groupId>cn.hutool</groupId>
-            <artifactId>hutool-all</artifactId>
-            <version>5.2.3</version>
-        </dependency>
+    <!--poi依赖-->
         <dependency>
             <groupId>org.apache.poi</groupId>
             <artifactId>poi</artifactId>
-            <version>3.17</version>
-            <type>pom</type>
+            <version>3.9</version>
         </dependency>
+        <dependency>
+            <groupId>org.apache.poi</groupId>
+            <artifactId>poi-ooxml</artifactId>
+            <version>3.9</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.poi</groupId>
+            <artifactId>poi-ooxml-schemas</artifactId>
+            <version>3.9</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.poi</groupId>
+            <artifactId>poi-scratchpad</artifactId>
+            <version>3.9</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+            <version>2.0.49</version>
+        </dependency>
+
+
 
 
 
